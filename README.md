@@ -1,8 +1,7 @@
 # NuLink2_ISPLink2
 ### operation steps
-1. Program ISPLink2 FW to Nu-Link2 
-1. pop up a USB DISK 
-1. format it
+1. Program ISPLink2 FW to Nu-Link2 board
+1. pop up a USB DISK, format it
 1. Put DEFINE.TXT and TEST1.BIN into DISK  
 1. target board boot from LDROM, and with target code. can be found in BSP, e.g. [M480 BSP link](https://github.com/OpenNuvoton/M480BSP/tree/master/SampleCode/ISP)
 
