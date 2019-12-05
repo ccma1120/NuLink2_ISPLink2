@@ -1,0 +1,38 @@
+*** Creating Trace Output File '.\obj\HSUSBD_Mass_Storage_DataFlash.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\system_m480.o"'
+### List of Objects: adding '".\obj\startup_m480.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '"..\Voltage.lib"'
+### List of Objects: adding '"..\OFFLINE_LIB.lib"'
+### List of Objects: adding '".\obj\isp_can_bus.o"'
+### List of Objects: adding '".\obj\isp_cmd.o"'
+### List of Objects: adding '".\obj\isp_driver.o"'
+### List of Objects: adding '".\obj\isp_file_access.o"'
+### List of Objects: adding '".\obj\isp_i2c_bus.o"'
+### List of Objects: adding '".\obj\isp_rs485_bus.o"'
+### List of Objects: adding '".\obj\isp_spi_bus.o"'
+### List of Objects: adding '".\obj\isp_uart_bus.o"'
+### List of Objects: adding '".\obj\hal_can_isp.o"'
+### List of Objects: adding '".\obj\hal_rs485.o"'
+### List of Objects: adding '".\obj\hal_spi.o"'
+### List of Objects: adding '".\obj\hal_sys.o"'
+### List of Objects: adding '".\obj\hal_timer.o"'
+### List of Objects: adding '".\obj\hal_usci_i2c.o"'
+### List of Objects: adding '".\obj\isp_bridge.o"'
+### List of Objects: adding '".\obj\hal_hsusbd.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\obj\system_m480.o" ".\obj\startup_m480.o" ".\obj\main.o" "C:\work\isptool\ispbridge\offline\NULINK 2 Offline ISP Bridge 20190802\SampleCode\StdDriver\HSUSBD_Mass_Storage_OFFLINE_ISP\Voltage.lib" "C:\work\isptool\ispbridge\offline\NULINK 2 Offline ISP Bridge 20190802\SampleCode\StdDriver\HSUSBD_Mass_Storage_OFFLINE_ISP\OFFLINE_LIB.lib" ".\obj\isp_can_bus.o" ".\obj\isp_cmd.o" ".\obj\isp_driver.o" ".\obj\isp_file_access.o" ".\obj\isp_i2c_bus.o" ".\obj\isp_rs485_bus.o" ".\obj\isp_spi_bus.o" ".\obj\isp_uart_bus.o" ".\obj\hal_can_isp.o" ".\obj\hal_rs485.o" ".\obj\hal_spi.o" ".\obj\hal_sys.o" ".\obj\hal_timer.o" ".\obj\hal_usci_i2c.o" ".\obj\isp_bridge.o" ".\obj\hal_hsusbd.o" --library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --map --first='startup_M480.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\lst\HSUSBD_Mass_Storage_DataFlash.map" -o .\obj\HSUSBD_Mass_Storage_DataFlash.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\HSUSBD_Mass_Storage_DataFlash.axf'
+### ADS-LD Command File: '.\obj\HSUSBD_Mass_Storage_DataFlash.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\HSUSBD_Mass_Storage_DataFlash.lnp', Handle=0x00000408
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\HSUSBD_Mass_Storage_DataFlash.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
