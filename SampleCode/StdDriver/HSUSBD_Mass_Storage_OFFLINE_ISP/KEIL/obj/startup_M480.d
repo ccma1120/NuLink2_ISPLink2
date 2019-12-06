@@ -1,1 +1,0 @@
-.\obj\startup_M480.o: ..\..\..\..\Library\Device\Nuvoton\M480\Source\ARM\startup_M480.s
